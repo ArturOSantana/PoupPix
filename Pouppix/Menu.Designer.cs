@@ -29,18 +29,19 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.receitaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addgastos = new System.Windows.Forms.ToolStripMenuItem();
             this.cofreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gastoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.objetivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adicionarGastoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.receitaToolStripMenuItem,
+            this.addgastos,
             this.cofreToolStripMenuItem,
             this.gastoToolStripMenuItem,
             this.usuarioToolStripMenuItem,
@@ -51,11 +52,13 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // receitaToolStripMenuItem
+            // addgastos
             // 
-            this.receitaToolStripMenuItem.Name = "receitaToolStripMenuItem";
-            this.receitaToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
-            this.receitaToolStripMenuItem.Text = "Receita";
+            this.addgastos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adicionarGastoToolStripMenuItem});
+            this.addgastos.Name = "addgastos";
+            this.addgastos.Size = new System.Drawing.Size(57, 20);
+            this.addgastos.Text = "Receita";
             // 
             // cofreToolStripMenuItem
             // 
@@ -81,6 +84,13 @@
             this.objetivoToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.objetivoToolStripMenuItem.Text = "Objetivo";
             // 
+            // adicionarGastoToolStripMenuItem
+            // 
+            this.adicionarGastoToolStripMenuItem.Name = "adicionarGastoToolStripMenuItem";
+            this.adicionarGastoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.adicionarGastoToolStripMenuItem.Text = "Adicionar Gasto";
+            this.adicionarGastoToolStripMenuItem.Click += new System.EventHandler(this.adicionarGastoToolStripMenuItem_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,10 +110,11 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem receitaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addgastos;
         private System.Windows.Forms.ToolStripMenuItem cofreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gastoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem objetivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adicionarGastoToolStripMenuItem;
     }
 }

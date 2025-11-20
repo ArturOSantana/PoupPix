@@ -26,23 +26,20 @@ namespace Pouppix
         private void btnLogin_Click(object sender, EventArgs e)
         {
             DaoUsuario DaoUsuario = new DaoUsuario();
-            bool autenticado;
-            autenticado = DaoUsuario.buscarUsuario(txtlogin.Text, txtloginsenha.Text);
+           
+            Usuario usuarioLogado = DaoUsuario.buscarUsuario(txtlogin.Text, txtloginsenha.Text);
 
-            if (autenticado == true)
+            if(usuarioLogado != null)
             {
-                Form MenuForm = new Menu();
-                MenuForm.Show();
+                Menu menuForm = new Menu(usuarioLogado);
+                menuForm.Show();
                 this.Hide();
-            }
-            else if (autenticado == false)
-            {
-                MessageBox.Show("Email ou senha incorretos!");
             }
             else
             {
-
+            MessageBox.Show("Login ou senha incorretos. Tente novamente.");
             }
         }
     }
 }
+ 

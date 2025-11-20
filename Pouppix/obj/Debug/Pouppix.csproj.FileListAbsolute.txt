@@ -40,3 +40,4 @@ C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.Cadastro.r
 C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.csproj.GenerateResource.cache
 C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.login.resources
 C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.Menu.resources
+C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.AdicionarGasto.resources

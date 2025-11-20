@@ -28,7 +28,7 @@ namespace Pouppix
         }
 
 
-        public bool buscarUsuario(string email, string senha)
+        public Usuario buscarUsuario(string email, string senha)
         {
             try
             {
@@ -38,37 +38,35 @@ namespace Pouppix
                     string sql = "SELECT * FROM usuario WHERE email = @email AND senha = @senha;";
                     using (MySqlCommand cmd = new MySqlCommand(sql, conexao))
                     {
-                        cmd.Parameters.AddWithValue("@email", email);
-                        cmd.Parameters.AddWithValue("@senha", senha);
+                        cmd.Parameters.AddWithValue("@email", email.Trim());
+                        cmd.Parameters.AddWithValue("@senha", senha.Trim());
+
                         using (MySqlDataReader rdr = cmd.ExecuteReader())
                         {
                             if (rdr.Read())
                             {
-                                if(email == rdr.GetString("email") && senha == rdr.GetString("senha"))
-                                {
-                                    return true;
-                                }
-                                else
-                                {
-                                    return false;
-                                }
-                            } else
-                            {
-                                return false;
+                                Usuario u = new Usuario();
+                                u.id = Convert.ToInt32(rdr["id_usuario"]);
+                                u.nome = rdr.GetString("nome");
+                                u.email = rdr.GetString("email");
+                                u.senha = rdr.GetString("senha");
+
+                                return u;
                             }
-                            
-                           
+                            else
+                            {
+                                return null;
+                            }
                         }
                     }
                 }
             }
             catch (Exception erroBuscaUsuario)
-            {       
+            {
                 Console.WriteLine("Erro ao buscar usuário: " + erroBuscaUsuario.Message);
-                return false;
+                return null;
             }
         }
-
 
 
 

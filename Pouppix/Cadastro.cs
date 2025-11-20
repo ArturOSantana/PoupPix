@@ -20,7 +20,8 @@ namespace Pouppix
         private void btncadastro_Click(object sender, EventArgs e)
         {
             Usuario u = new Usuario( txtnome.Text, txtsenha.Text, txtemail.Text);
-           this.Close();
+            MessageBox.Show("Usuário cadastrado com sucesso");
+            this.Close();
         }
 
        

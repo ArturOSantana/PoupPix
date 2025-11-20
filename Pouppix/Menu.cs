@@ -10,11 +10,24 @@ using System.Windows.Forms;
 
 namespace Pouppix
 {
-    public partial class Menu : Form
+     partial class Menu : Form
     {
-        public Menu()
+        private Usuario usuarioLogado;
+
+        public Menu(Usuario u)
         {
+
+
             InitializeComponent();
+            usuarioLogado = u;
+
+        }
+
+        private void adicionarGastoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form adicionarGastoForm = new AdicionarGasto(usuarioLogado);
+            adicionarGastoForm.Show();
+
         }
     }
 }

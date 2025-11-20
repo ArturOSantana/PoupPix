@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pouppix
 {
-    class Usuario
+   public class Usuario
     {
         DaoUsuario DaoUsuario = new DaoUsuario();
 
@@ -16,10 +16,10 @@ namespace Pouppix
         public string email { set; get; }
         public bool autenticado { set; get; }
 
-      
-        
 
 
+
+        public Usuario() { }
         public Usuario( string n,string s,string e)
         {
             

@@ -3,62 +3,94 @@
   "WorkspaceRootPath": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\daogastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\daogastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\adicionargasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\adicionargasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\adicionargasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\adicionargasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\adicionargasto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\adicionargasto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\cadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\cadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\cadastro.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\cadastro.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Pouppix||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\daoreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\daoreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\daoreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\santana artur\\source\\repos\\pouppix\\pouppix\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\cadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\cadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\cadastro.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\cadastro.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\pouppix\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -72,11 +104,202 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdicionarGasto.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\AdicionarGasto.cs",
+              "RelativeDocumentMoniker": "Pouppix\\AdicionarGasto.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\AdicionarGasto.cs",
+              "RelativeToolTip": "Pouppix\\AdicionarGasto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T19:03:29.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gastos.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Gastos.cs",
+              "RelativeDocumentMoniker": "Pouppix\\Gastos.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Gastos.cs",
+              "RelativeToolTip": "Pouppix\\Gastos.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T18:28:05.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdicionarGasto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\AdicionarGasto.cs",
+              "RelativeDocumentMoniker": "Pouppix\\AdicionarGasto.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\AdicionarGasto.cs [Design]",
+              "RelativeToolTip": "Pouppix\\AdicionarGasto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T19:02:21.974Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdicionarGasto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\AdicionarGasto.Designer.cs",
+              "RelativeDocumentMoniker": "Pouppix\\AdicionarGasto.Designer.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\AdicionarGasto.Designer.cs",
+              "RelativeToolTip": "Pouppix\\AdicionarGasto.Designer.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAAJUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T19:04:15.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DaoGastos.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoGastos.cs",
+              "RelativeDocumentMoniker": "Pouppix\\DaoGastos.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoGastos.cs",
+              "RelativeToolTip": "Pouppix\\DaoGastos.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wBkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T18:28:14.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.cs",
+              "RelativeDocumentMoniker": "Pouppix\\login.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.cs",
+              "RelativeToolTip": "Pouppix\\login.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T16:38:55.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DaoUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoUsuario.cs",
+              "RelativeDocumentMoniker": "Pouppix\\DaoUsuario.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoUsuario.cs",
+              "RelativeToolTip": "Pouppix\\DaoUsuario.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:11:40.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoGasto.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\TipoGasto.cs",
+              "RelativeDocumentMoniker": "Pouppix\\TipoGasto.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\TipoGasto.cs",
+              "RelativeToolTip": "Pouppix\\TipoGasto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T19:57:25.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Usuario.cs",
+              "RelativeDocumentMoniker": "Pouppix\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Usuario.cs",
+              "RelativeToolTip": "Pouppix\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:50:35.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.cs",
+              "RelativeDocumentMoniker": "Pouppix\\login.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.cs [Design]",
+              "RelativeToolTip": "Pouppix\\login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T16:38:24.357Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Pouppix",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Pouppix.csproj",
+              "RelativeDocumentMoniker": "Pouppix\\Pouppix.csproj",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Pouppix.csproj",
+              "RelativeToolTip": "Pouppix\\Pouppix.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-20T15:47:25.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\packages.config",
+              "RelativeDocumentMoniker": "Pouppix\\packages.config",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\packages.config",
+              "RelativeToolTip": "Pouppix\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-20T19:28:03.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DaoReceita.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoReceita.cs",
+              "RelativeDocumentMoniker": "Pouppix\\DaoReceita.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoReceita.cs",
+              "RelativeToolTip": "Pouppix\\DaoReceita.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowF0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:25:24.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Menu.cs",
+              "RelativeDocumentMoniker": "Pouppix\\Menu.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Menu.cs",
+              "RelativeToolTip": "Pouppix\\Menu.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T18:41:38.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Menu.cs",
+              "RelativeDocumentMoniker": "Pouppix\\Menu.cs",
+              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Menu.cs [Design]",
+              "RelativeToolTip": "Pouppix\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T17:28:55.717Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Cadastro.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Cadastro.Designer.cs",
               "RelativeDocumentMoniker": "Pouppix\\Cadastro.Designer.cs",
@@ -89,58 +312,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Usuario.cs",
-              "RelativeDocumentMoniker": "Pouppix\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Usuario.cs",
-              "RelativeToolTip": "Pouppix\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T14:50:35.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DaoUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoUsuario.cs",
-              "RelativeDocumentMoniker": "Pouppix\\DaoUsuario.cs",
-              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoUsuario.cs",
-              "RelativeToolTip": "Pouppix\\DaoUsuario.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAowCUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T15:11:40.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.cs",
-              "RelativeDocumentMoniker": "Pouppix\\login.cs",
-              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.cs",
-              "RelativeToolTip": "Pouppix\\login.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T16:38:55.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "Cadastro.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Cadastro.cs",
               "RelativeDocumentMoniker": "Pouppix\\Cadastro.cs",
               "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Cadastro.cs [Design]",
               "RelativeToolTip": "Pouppix\\Cadastro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T15:31:17.482Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-20T15:31:17.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "Cadastro.cs",
               "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Cadastro.cs",
               "RelativeDocumentMoniker": "Pouppix\\Cadastro.cs",
@@ -148,12 +331,11 @@
               "RelativeToolTip": "Pouppix\\Cadastro.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T15:32:09.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T15:32:09.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "login.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.Designer.cs",
               "RelativeDocumentMoniker": "Pouppix\\login.Designer.cs",
@@ -166,31 +348,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Cadastro.resx",
               "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Cadastro.resx",
               "RelativeDocumentMoniker": "Pouppix\\Cadastro.resx",
               "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Cadastro.resx",
               "RelativeToolTip": "Pouppix\\Cadastro.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-20T15:32:21.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T15:32:21.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.cs",
-              "RelativeDocumentMoniker": "Pouppix\\login.cs",
-              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.cs [Design]",
-              "RelativeToolTip": "Pouppix\\login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T16:38:24.357Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "login.resx",
               "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\login.resx",
               "RelativeDocumentMoniker": "Pouppix\\login.resx",
@@ -202,19 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Menu.cs",
-              "RelativeDocumentMoniker": "Pouppix\\Menu.cs",
-              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Menu.cs [Design]",
-              "RelativeToolTip": "Pouppix\\Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:28:55.717Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Program.cs",
               "RelativeDocumentMoniker": "Pouppix\\Program.cs",
@@ -222,37 +379,11 @@
               "RelativeToolTip": "Pouppix\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:13:35.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T13:13:35.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DaoReceita.cs",
-              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoReceita.cs",
-              "RelativeDocumentMoniker": "Pouppix\\DaoReceita.cs",
-              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\DaoReceita.cs",
-              "RelativeToolTip": "Pouppix\\DaoReceita.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T14:25:24.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Pouppix",
-              "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Pouppix.csproj",
-              "RelativeDocumentMoniker": "Pouppix\\Pouppix.csproj",
-              "ToolTip": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Pouppix.csproj",
-              "RelativeToolTip": "Pouppix\\Pouppix.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-20T15:47:25.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "Receita.cs",
               "DocumentMoniker": "C:\\Users\\Santana Artur\\source\\repos\\Pouppix\\Pouppix\\Receita.cs",
               "RelativeDocumentMoniker": "Pouppix\\Receita.cs",
@@ -260,8 +391,7 @@
               "RelativeToolTip": "Pouppix\\Receita.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T14:46:38.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T14:46:38.337Z"
             }
           ]
         }
