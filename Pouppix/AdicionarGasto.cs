@@ -22,7 +22,7 @@ namespace Pouppix
             carregarTipos();
         }
 
-        private void carregarTipos()
+        public void carregarTipos()
         {
             using (MySqlConnection conexao = new MySqlConnection(con))
             {
@@ -42,7 +42,7 @@ namespace Pouppix
                 }
             }
         }
-        private int obterTipoSelecionado()
+        public int obterTipoSelecionado()
         {
 
             TipoGasto tipo = (TipoGasto)comboBox.SelectedItem;
@@ -65,7 +65,9 @@ namespace Pouppix
                 }
                 else
                 {
-                    Gastos g = new Gastos(usuarioLogado, txtvaloraux, tipoId, dataGasto.Value, txtNomeGasto);
+                    DaoGastos dao = new DaoGastos();
+                    Gastos g = new Gastos(usuarioLogado.id, txtvaloraux, tipoId, dataGasto.Value, txtNomeGasto);
+                    dao.adicionarGasto(g);
                     MessageBox.Show("Gasto adicionado com sucesso");
                 }
             }

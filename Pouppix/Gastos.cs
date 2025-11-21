@@ -15,16 +15,20 @@ namespace Pouppix
         public int tipo { get; set; }
         public DateTime data { get; set; }
         public string descricao { get; set; }
+        public int idgasto { get; set; }
 
-        public Gastos(Usuario u,double valor,int tipo,DateTime data,string descricao) {
-            this.usuarioId = u.id;
+        public Gastos(int u,double valor,int tipo,DateTime data,string descricao) {
+            this.usuarioId = u;
             this.valor = valor;
             this.tipo = tipo;
             this.data = data;
             this.descricao = descricao;
 
-            dao.adicionarGasto(this);
+
+           
 
         }
+       
+
     }
 }

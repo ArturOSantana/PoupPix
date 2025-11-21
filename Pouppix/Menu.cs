@@ -35,9 +35,34 @@ namespace Pouppix
         private void Menu_Load(object sender, EventArgs e)
         {
             lblnome.Text = usuarioLogado.nome;
-            totalGastos.Text = "R$" + DaoG.somaGastos(usuarioLogado) + ",00";
-            totalReceita.Text = "R$" + DaoR.somaReceitas(usuarioLogado) + ",00";
-            atualizarDashboard();
+            double consumo = DaoG.somaGastos(usuarioLogado);
+
+            if ( consumo > 0)
+            {
+                totalGastos.Text = "R$" + DaoG.somaGastos(usuarioLogado) + ",00";
+
+            }
+            else
+            {
+                totalGastos.Text = "R$0,00";
+                MessageBox.Show("Gastos ainda não cadastrados");
+            }
+
+            double saldo = DaoR.somaReceitas(usuarioLogado);
+            if (saldo > 0)
+            {
+                totalReceita.Text = "R$" + DaoR.somaReceitas(usuarioLogado) + ",00";
+
+            }
+            else
+            {
+                totalReceita.Text = "R$ 0,00";
+                MessageBox.Show("Receita ainda não cadastrada ");
+            }
+
+
+                this.Refresh();
+          
         }
 
         private void adicionarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,7 +74,15 @@ namespace Pouppix
         public void atualizarDashboard()
         {
             totalGastos.Text = "R$" + DaoG.somaGastos(usuarioLogado) + ",00";
+
+
             totalReceita.Text = "R$" + DaoR.somaReceitas(usuarioLogado) + ",00";
+        }
+
+        private void mostrarGastosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form mostrarGastosforms = new MostrarGastos(usuarioLogado);
+            mostrarGastosforms.Show();
         }
     }
 }

@@ -72,25 +72,32 @@ namespace Pouppix
         }
 
      
-        public void mostrarGastos(Usuario u)
+        public List<Gastos> mostrarGastos(Usuario u)
         {
+            List<Gastos> listaGastos = new List<Gastos>();
             try 
             {
                 using (MySqlConnection conexao = new MySqlConnection(connectionString))
                 {
                     conexao.Open();
-                    string sql = "SELECT * FROM GASTOS WHERE usuario_id = @id;";
+                    string sql = "SELECT * FROM gasto WHERE usuario_id = @id;";
                     MySqlCommand cmd = new MySqlCommand(sql, conexao);
                     cmd.Parameters.AddWithValue("@id", u.id);
                    using (MySqlDataReader rdr = cmd.ExecuteReader())
                     {
                         while (rdr.Read())
                         {
-                            int idusuario = Convert.ToInt32(rdr["usuario_id"]);
-                            int idgasto = Convert.ToInt32(rdr["id_gasto"]);
-                            string nomeG = rdr.GetString("nome_gasto");
-                            double valor = rdr.GetDouble("valor_gasto");
-                            DateTime data = rdr.GetDateTime("data_gasto");
+                            Gastos  g = new Gastos(
+                                u.id,
+                                rdr.GetDouble("valor_gasto"),
+                                rdr.GetInt32("tipo_id"),
+                                rdr.GetDateTime("data_gasto"),
+                                rdr.GetString("nome_gasto")
+                               
+                                );
+                            g.idgasto = rdr.GetInt32("id_gasto");
+                           
+                            listaGastos.Add(g);
 
                         }
                     }
@@ -100,14 +107,77 @@ namespace Pouppix
             }
             catch (Exception ErroAoExibir)
             {
+                MessageBox.Show("Erro ao exibir gastos: " + ErroAoExibir.Message);
+            }
+            return listaGastos;
+        }
 
+        public void deletarGasto(int g)
+        {
+            try
+            {
+                using (MySqlConnection conexao = new MySqlConnection(connectionString))
+                {
+                    conexao.Open();
+                    string sql = "DELETE FROM gasto WHERE id_gasto = @id;";
+                    using (MySqlCommand cmd = new MySqlCommand(sql, conexao))
+                    {
+                        cmd.Parameters.AddWithValue("@id", g);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+
+            }
+            catch (Exception erroDeletarGasto)
+            {
+                MessageBox.Show("Erro ao deletar gasto: " + erroDeletarGasto.Message);
             }
         }
 
 
 
+        public Gastos mostrarGastosporId(int id)
+        {
+            try
+            {
 
+                using (MySqlConnection conexao = new MySqlConnection(connectionString))
+                {
+                    conexao.Open();
+                    string sql = "SELECT * FROM gasto WHERE id_gasto = @id;";
+                    using (MySqlCommand cmd = new MySqlCommand(sql, conexao))
+                    {
+                        cmd.Parameters.AddWithValue("@id", id);
+                        using (MySqlDataReader rdr = cmd.ExecuteReader())
+                        {
+                            if (rdr.Read())
+                            {
+                                return new Gastos(
+                                      rdr.GetInt32("usuario_id"),
+                                      rdr.GetDouble("valor_gasto"),
+                                      rdr.GetInt32("tipo_id"),
+                                      rdr.GetDateTime("data_gasto"),
+                                      rdr.GetString("nome_gasto")
+                                      )
+                                {
+                                    idgasto = rdr.GetInt32("id_gasto")
+                                };
+                            }
+                            else
+                            {
+                                return null;
+                            }
+                        }
+                    }
 
+                }
+            }
+            catch (Exception erroMostrarGastoPorId)
+            {
+              
+                return null;
+            }
+        }
 
 
 

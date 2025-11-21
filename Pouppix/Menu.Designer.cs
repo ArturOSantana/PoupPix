@@ -33,6 +33,7 @@
             this.adicionarGastoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cofreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gastoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adicionarReceitaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.objetivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.totalReceita = new System.Windows.Forms.Label();
@@ -41,7 +42,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.adicionarReceitaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mostrarGastosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +63,8 @@
             // addgastos
             // 
             this.addgastos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.adicionarGastoToolStripMenuItem});
+            this.adicionarGastoToolStripMenuItem,
+            this.mostrarGastosToolStripMenuItem});
             this.addgastos.Name = "addgastos";
             this.addgastos.Size = new System.Drawing.Size(54, 20);
             this.addgastos.Text = "Gastos";
@@ -70,7 +72,7 @@
             // adicionarGastoToolStripMenuItem
             // 
             this.adicionarGastoToolStripMenuItem.Name = "adicionarGastoToolStripMenuItem";
-            this.adicionarGastoToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.adicionarGastoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.adicionarGastoToolStripMenuItem.Text = "Adicionar Gasto";
             this.adicionarGastoToolStripMenuItem.Click += new System.EventHandler(this.adicionarGastoToolStripMenuItem_Click);
             // 
@@ -87,6 +89,13 @@
             this.gastoToolStripMenuItem.Name = "gastoToolStripMenuItem";
             this.gastoToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.gastoToolStripMenuItem.Text = "Receita";
+            // 
+            // adicionarReceitaToolStripMenuItem
+            // 
+            this.adicionarReceitaToolStripMenuItem.Name = "adicionarReceitaToolStripMenuItem";
+            this.adicionarReceitaToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.adicionarReceitaToolStripMenuItem.Text = "Adicionar Receita";
+            this.adicionarReceitaToolStripMenuItem.Click += new System.EventHandler(this.adicionarReceitaToolStripMenuItem_Click);
             // 
             // usuarioToolStripMenuItem
             // 
@@ -154,12 +163,12 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "TOTAL DOS GASTOS";
             // 
-            // adicionarReceitaToolStripMenuItem
+            // mostrarGastosToolStripMenuItem
             // 
-            this.adicionarReceitaToolStripMenuItem.Name = "adicionarReceitaToolStripMenuItem";
-            this.adicionarReceitaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.adicionarReceitaToolStripMenuItem.Text = "Adicionar Receita";
-            this.adicionarReceitaToolStripMenuItem.Click += new System.EventHandler(this.adicionarReceitaToolStripMenuItem_Click);
+            this.mostrarGastosToolStripMenuItem.Name = "mostrarGastosToolStripMenuItem";
+            this.mostrarGastosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mostrarGastosToolStripMenuItem.Text = "Mostrar Gastos";
+            this.mostrarGastosToolStripMenuItem.Click += new System.EventHandler(this.mostrarGastosToolStripMenuItem_Click);
             // 
             // Menu
             // 
@@ -200,5 +209,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ToolStripMenuItem adicionarReceitaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mostrarGastosToolStripMenuItem;
     }
 }
