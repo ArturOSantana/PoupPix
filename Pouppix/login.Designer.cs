@@ -67,6 +67,7 @@
             this.txtloginsenha.Name = "txtloginsenha";
             this.txtloginsenha.Size = new System.Drawing.Size(100, 20);
             this.txtloginsenha.TabIndex = 3;
+            this.txtloginsenha.UseSystemPasswordChar = true;
             // 
             // btnLogin
             // 

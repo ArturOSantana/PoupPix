@@ -136,7 +136,34 @@ namespace Pouppix
         }
 
 
-
+        public double somaReceitas(Usuario u)
+        {
+            try
+            {
+                using (MySqlConnection conexao = new MySqlConnection(connectionString))
+                {
+                    conexao.Open();
+                    string sql = "SELECT SUM(valor) FROM receita WHERE usuario_id = @id;";
+                    MySqlCommand cmd = new MySqlCommand(sql, conexao);
+                    cmd.Parameters.AddWithValue("@id", u.id);
+                    object result = cmd.ExecuteScalar();
+                    if (result != null)
+                    {
+                        double total = Convert.ToDouble(result);
+                        return total;
+                    }
+                    else
+                    {
+                        return 0;
+                    }
+                }
+            }
+            catch (Exception erroSomaReceitas)
+            {
+                Console.WriteLine("Erro ao somar receitas: " + erroSomaReceitas.Message);
+                return 0;
+            }
+        }
 
 
 

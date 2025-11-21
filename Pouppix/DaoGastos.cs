@@ -10,7 +10,7 @@ namespace Pouppix
 {
     internal class DaoGastos
     {
-        
+
         private string connectionString = "server=localhost;user=root;password=root;database=pouppix";
 
         public void adicionarGasto(Gastos g)
@@ -39,6 +39,70 @@ namespace Pouppix
             }
         }
 
+        public double somaGastos(Usuario u)
+        {
+            try
+            {
+                using (MySqlConnection conexao = new MySqlConnection(connectionString))
+                {
+                    conexao.Open();
+                    string sql = "SELECT SUM(valor_gasto) FROM gasto WHERE usuario_id = @id;";
+                    MySqlCommand cmd = new MySqlCommand(sql, conexao);
+                    cmd.Parameters.AddWithValue("@id", u.id);
+                    object result = cmd.ExecuteScalar();
+                    if (result != null)
+                    {
+                        double total = Convert.ToDouble(result);
+                        return total;
+                    }
+                    else
+                    {
+                        return 0;
+                    }
+
+                }
+
+            }
+            catch (Exception erroSomaGastos)
+            {
+                Console.WriteLine("Erro ao somar gastos: " + erroSomaGastos.Message);
+                MessageBox.Show("Erro ao somar gastos: " + erroSomaGastos.Message);
+                return 0;
+            }
+        }
+
+     
+        public void mostrarGastos(Usuario u)
+        {
+            try 
+            {
+                using (MySqlConnection conexao = new MySqlConnection(connectionString))
+                {
+                    conexao.Open();
+                    string sql = "SELECT * FROM GASTOS WHERE usuario_id = @id;";
+                    MySqlCommand cmd = new MySqlCommand(sql, conexao);
+                    cmd.Parameters.AddWithValue("@id", u.id);
+                   using (MySqlDataReader rdr = cmd.ExecuteReader())
+                    {
+                        while (rdr.Read())
+                        {
+                            int idusuario = Convert.ToInt32(rdr["usuario_id"]);
+                            int idgasto = Convert.ToInt32(rdr["id_gasto"]);
+                            string nomeG = rdr.GetString("nome_gasto");
+                            double valor = rdr.GetDouble("valor_gasto");
+                            DateTime data = rdr.GetDateTime("data_gasto");
+
+                        }
+                    }
+
+                    
+                }
+            }
+            catch (Exception ErroAoExibir)
+            {
+
+            }
+        }
 
 
 
@@ -58,5 +122,7 @@ namespace Pouppix
 
 
 
+
+       
     }
 }

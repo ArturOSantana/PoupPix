@@ -13,6 +13,8 @@ namespace Pouppix
      partial class Menu : Form
     {
         private Usuario usuarioLogado;
+        DaoGastos DaoG = new DaoGastos();
+        DaoReceita DaoR = new DaoReceita();
 
         public Menu(Usuario u)
         {
@@ -28,6 +30,26 @@ namespace Pouppix
             Form adicionarGastoForm = new AdicionarGasto(usuarioLogado);
             adicionarGastoForm.Show();
 
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+            lblnome.Text = usuarioLogado.nome;
+            totalGastos.Text = "R$" + DaoG.somaGastos(usuarioLogado) + ",00";
+            totalReceita.Text = "R$" + DaoR.somaReceitas(usuarioLogado) + ",00";
+            atualizarDashboard();
+        }
+
+        private void adicionarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form adicionarReceitaform = new AdicionarReceita(usuarioLogado);
+            adicionarReceitaform.Show();
+        }
+
+        public void atualizarDashboard()
+        {
+            totalGastos.Text = "R$" + DaoG.somaGastos(usuarioLogado) + ",00";
+            totalReceita.Text = "R$" + DaoR.somaReceitas(usuarioLogado) + ",00";
         }
     }
 }

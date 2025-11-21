@@ -107,11 +107,23 @@
     <Compile Include="AdicionarGasto.Designer.cs">
       <DependentUpon>AdicionarGasto.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdicionarReceita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarReceita.Designer.cs">
+      <DependentUpon>AdicionarReceita.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cadastro.Designer.cs">
       <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarGastos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarGastos.Designer.cs">
+      <DependentUpon>MostrarGastos.cs</DependentUpon>
     </Compile>
     <Compile Include="TipoGasto.cs" />
     <Compile Include="DaoGastos.cs" />
@@ -362,6 +374,9 @@
     <EmbeddedResource Include="AdicionarGasto.resx">
       <DependentUpon>AdicionarGasto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdicionarReceita.resx">
+      <DependentUpon>AdicionarReceita.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
@@ -370,6 +385,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarGastos.resx">
+      <DependentUpon>MostrarGastos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

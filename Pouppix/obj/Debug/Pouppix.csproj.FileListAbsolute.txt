@@ -41,3 +41,4 @@ C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.csproj.Gen
 C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.login.resources
 C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.Menu.resources
 C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.AdicionarGasto.resources
+C:\Users\Santana Artur\source\repos\Pouppix\Pouppix\obj\Debug\Pouppix.AdicionarReceita.resources
