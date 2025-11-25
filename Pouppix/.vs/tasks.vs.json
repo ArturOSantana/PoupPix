@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-Pouppix",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-MostrarGastos",
+      "appliesTo": "MostrarGastos.cs",
+      "type": "launch"
+    }
+  ]
+}

@@ -179,7 +179,25 @@ namespace Pouppix
             }
         }
 
-
+        public void atualizarGasto(int id, DateTime date, double valor, string nome)
+        {
+            try {
+                using (MySqlConnection conexao = new MySqlConnection(connectionString))
+                {
+                    string sql = "UPDATE gasto SET nome_gasto = @nome, valor_gasto = @valor, data_gasto = @date WHERE id_gasto = @id;";
+                    MySqlCommand cmd = new MySqlCommand(sql,conexao);
+                    cmd.Parameters.AddWithValue("@nome", nome);
+                    cmd.Parameters.AddWithValue("@valor", valor);
+                    cmd.Parameters.AddWithValue("@date", date);
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ErroAoRealizarUpdate)
+            {
+                ErroAoRealizarUpdate.Message();
+            }
+        }
 
 
 
