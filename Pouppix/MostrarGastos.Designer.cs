@@ -127,6 +127,7 @@
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(100, 20);
             this.txtDescricao.TabIndex = 2;
+          
             // 
             // txtValor
             // 

@@ -19,6 +19,9 @@ namespace Pouppix
 
         private Usuario usuarioLogado;
         DaoGastos DaoG = new DaoGastos();
+      
+
+        
         
         public MostrarGastos(Usuario u)
         {
@@ -84,19 +87,20 @@ namespace Pouppix
 
             if (dgv.Columns[e.ColumnIndex].Name == "btnEditar")
             {
+                int gastoId = Convert.ToInt32(dgv.Rows[e.RowIndex].Cells["idgasto"].Value);
+                Gastos aux = DaoG.buscarGastos(gastoId);
+                
+                txtDescricao.Text = aux.descricao;
+                txtValor.Text = Convert.ToString(aux.valor); 
+                dtpData.Value = Convert.ToDateTime(aux.data);
+
+
+                
+
+
             }
          }
-      
 
-
-
-
-
-
-
-
-
-
-
-            }
+        
+    }
         }

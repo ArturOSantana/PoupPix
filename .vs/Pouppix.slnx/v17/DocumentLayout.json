@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab1057\\Documents\\PoupPix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\daogastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\daogastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\adicionargasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\adicionargasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\adicionarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\adicionarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\mostrargastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\mostrargastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\adicionargasto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\adicionargasto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\mostrargastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\mostrargastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\adicionargasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\adicionargasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\mostrargastos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\mostrargastos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|c:\\users\\lab1057\\documents\\pouppix\\pouppix\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F161463-5621-4717-8EB6-C847892314E2}|Pouppix\\Pouppix.csproj|solutionrelative:pouppix\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gastos.cs",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\Gastos.cs",
+              "RelativeDocumentMoniker": "Pouppix\\Gastos.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\Gastos.cs",
+              "RelativeToolTip": "Pouppix\\Gastos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:11:57.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdicionarReceita.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\AdicionarReceita.cs",
+              "RelativeDocumentMoniker": "Pouppix\\AdicionarReceita.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\AdicionarReceita.cs [Design]",
+              "RelativeToolTip": "Pouppix\\AdicionarReceita.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:03:48.599Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdicionarGasto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\AdicionarGasto.cs",
+              "RelativeDocumentMoniker": "Pouppix\\AdicionarGasto.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\AdicionarGasto.cs [Design]",
+              "RelativeToolTip": "Pouppix\\AdicionarGasto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:58:11.982Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DaoGastos.cs",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\DaoGastos.cs",
+              "RelativeDocumentMoniker": "Pouppix\\DaoGastos.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\DaoGastos.cs",
+              "RelativeToolTip": "Pouppix\\DaoGastos.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAgwKcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:19:44.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MostrarGastos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\MostrarGastos.cs",
+              "RelativeDocumentMoniker": "Pouppix\\MostrarGastos.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\MostrarGastos.cs [Design]",
+              "RelativeToolTip": "Pouppix\\MostrarGastos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:36:57.479Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MostrarGastos.cs",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\MostrarGastos.cs",
+              "RelativeDocumentMoniker": "Pouppix\\MostrarGastos.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\MostrarGastos.cs",
+              "RelativeToolTip": "Pouppix\\MostrarGastos.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwF4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:37:14.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdicionarGasto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\AdicionarGasto.Designer.cs",
+              "RelativeDocumentMoniker": "Pouppix\\AdicionarGasto.Designer.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\AdicionarGasto.Designer.cs",
+              "RelativeToolTip": "Pouppix\\AdicionarGasto.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:58:20.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdicionarGasto.cs",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\AdicionarGasto.cs",
+              "RelativeDocumentMoniker": "Pouppix\\AdicionarGasto.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\AdicionarGasto.cs",
+              "RelativeToolTip": "Pouppix\\AdicionarGasto.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwEkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:58:32.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MostrarGastos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\MostrarGastos.Designer.cs",
+              "RelativeDocumentMoniker": "Pouppix\\MostrarGastos.Designer.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\MostrarGastos.Designer.cs",
+              "RelativeToolTip": "Pouppix\\MostrarGastos.Designer.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAwIEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:18:18.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\Menu.cs",
+              "RelativeDocumentMoniker": "Pouppix\\Menu.cs",
+              "ToolTip": "C:\\Users\\lab1057\\Documents\\PoupPix\\Pouppix\\Menu.cs [Design]",
+              "RelativeToolTip": "Pouppix\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:36:58.089Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

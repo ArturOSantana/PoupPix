@@ -10,6 +10,8 @@ namespace Pouppix
     {
         DaoGastos dao = new DaoGastos();
 
+        public int idGasto { get; set; }
+
         public int usuarioId { get; set; }
         public double valor { get; set; }
         public int tipo { get; set; }

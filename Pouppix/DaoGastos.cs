@@ -71,6 +71,8 @@ namespace Pouppix
             }
         }
 
+      
+
      
         public List<Gastos> mostrarGastos(Usuario u)
         {
@@ -152,15 +154,18 @@ namespace Pouppix
                         {
                             if (rdr.Read())
                             {
-                                return new Gastos(
-                                      rdr.GetInt32("usuario_id"),
-                                      rdr.GetDouble("valor_gasto"),
-                                      rdr.GetInt32("tipo_id"),
-                                      rdr.GetDateTime("data_gasto"),
-                                      rdr.GetString("nome_gasto")
-                                      )
+
+                                int idg = Convert.ToInt32(rdr["id_gasto"]);
+                                double valor = rdr.GetDouble("valor_gasto");
+                                int tip = rdr.GetInt32("tipo_id");
+                                DateTime data = rdr.GetDateTime("data_gasto");
+                                string nome = rdr.GetString("nome_gasto");
+
+                                Gastos ret = new Gastos(idg, valor, tip, data, nome);
+
                                 {
-                                    idgasto = rdr.GetInt32("id_gasto")
+                                    idgasto = rdr.GetInt32("id_gasto");
+                                    return gg;
                                 };
                             }
                             else
@@ -195,7 +200,7 @@ namespace Pouppix
             }
             catch (Exception ErroAoRealizarUpdate)
             {
-                ErroAoRealizarUpdate.Message();
+               MessageBox.Show( "Erro" + ErroAoRealizarUpdate.Message);
             }
         }
 
